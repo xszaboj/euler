@@ -8,6 +8,11 @@ namespace LetticePath
 {
     public class Program
     {
+        /**Solution:
+        * Number of posibilities for Lattice paths is equal to middle numbers
+        *in Pythagorean triangle
+        *also good: http://www.robertdickau.com/lattices.html
+        **/
         static void Main(string[] args)
         {
             var triangle = CreatePytaghorasTriangle(21);
