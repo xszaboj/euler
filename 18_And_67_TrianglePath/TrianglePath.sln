@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrianglePath", "TrianglePath\TrianglePath.csproj", "{3731BE0D-C218-4E1F-83D9-85F655648048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{00C21637-F9FB-41A7-B8CE-0B48441FF107}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3731BE0D-C218-4E1F-83D9-85F655648048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3731BE0D-C218-4E1F-83D9-85F655648048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3731BE0D-C218-4E1F-83D9-85F655648048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3731BE0D-C218-4E1F-83D9-85F655648048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C21637-F9FB-41A7-B8CE-0B48441FF107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C21637-F9FB-41A7-B8CE-0B48441FF107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C21637-F9FB-41A7-B8CE-0B48441FF107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C21637-F9FB-41A7-B8CE-0B48441FF107}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
