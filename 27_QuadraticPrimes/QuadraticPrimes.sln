@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticPrimes", "QuadraticPrimes\QuadraticPrimes.csproj", "{C697717A-67D8-4F7E-91EC-2AC0E4EDE750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{83F64AA7-7B2E-4C5E-9B61-41CDA7FD7D66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C697717A-67D8-4F7E-91EC-2AC0E4EDE750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C697717A-67D8-4F7E-91EC-2AC0E4EDE750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C697717A-67D8-4F7E-91EC-2AC0E4EDE750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C697717A-67D8-4F7E-91EC-2AC0E4EDE750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F64AA7-7B2E-4C5E-9B61-41CDA7FD7D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F64AA7-7B2E-4C5E-9B61-41CDA7FD7D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F64AA7-7B2E-4C5E-9B61-41CDA7FD7D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F64AA7-7B2E-4C5E-9B61-41CDA7FD7D66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
