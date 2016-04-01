@@ -1,0 +1,10 @@
+for 4:
+9^4 * 5 = 32805 [5 digit number] => ok
+9^4 * 6 = 39366 [5 digit number] => not ok
+
+------------------
+for: 5
+59049 = 9^5
+
+9^5 * 6 = 354294 [6 digit number] => not ok
+9^5 * 7 = 413343 [6 digit number] => not ok
