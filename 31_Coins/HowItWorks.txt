@@ -1,0 +1,51 @@
+Technique used here is called dynamic programming. Main point is to divide problem on smaller pieces and pre-calculate the result of those smaller pieces.
+
+I have to return n pennies
+
+If i return one x coin, how many ways I can return n-x pennies, while using only x or smaller
+
+Example:
+how many ways I can retun n=5 using only x=1  (note n=1 value that I want to create, x=1 coin than I will use)
+Init: How many ways I can retun when n=0 => 1
+0 1 2 3 4 5
+1 0 0 0 0 0
+
+First step: How many step I can return when n=1 => n-x => 1-1 => 0 and I already calculated how many ways I can return for 0p
+so for n=1 it is 0+1 => 1
+n-x = 0p where n = 1 
+0 1 2 3 4 5
+1 1 0 0 0 0
+
+Second step: n=2 => n-x => 2-1 => 1 and same step as before
+0 1 2 3 4 5
+1 1 1
+etc
+....
+
+so result is:
+0 1 2 3 4 5
+1 1 1 1 1 1
+
+Make sense. When using only one coin you can create only one combination.
+
+2. How many ways I can create 5 using 1 and 2
+
+because I already counted all combinations for 1 a will continu with 2-1
+because 1 is smaller than 2 I won't bother to calculate.
+n=2 => n-x => 2-2= 0 => and therefore it is 1 + 1 is 2
+Make sense again. You can create two as: 1+1 or 2
+0 1 2 3 4 5
+1 1 2 1 1 1
+
+3-2=1
+0 1 2 3 4 5
+1 1 2 2 1 1
+
+4-2=2
+0 1 2 3 4 5
+1 1 2 2 3 1
+
+5-=3
+0 1 2 3 4 5
+1 1 2 2 3 3
+So using 1 and 2 you can create 5 in 3 ways. 1+1+1+1+1, 1+1+1+2, 1+2+2
