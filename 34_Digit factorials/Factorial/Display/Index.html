@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+
+  var myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+  var fetchedData = fetch('numbers.json', 
+  {
+    method: 'GET', 
+    headers: myHeaders
+  })
+      .then(response => {
+          response.json().then( d=>{
+            var data = []; 
+            var dataSeries = { type: "line" };
+            dataSeries.dataPoints = d;
+            data.push(dataSeries);
+            renderChart(data);
+          });
+      })
+      .catch(err => {
+          console.log(err);
+      });
+
+   function renderChart(data){
+     var chart = new CanvasJS.Chart("chartContainer",
+      {
+        zoomEnabled: true,
+        title:{
+          text: "Stress Test: 100,000 Data Points"
+        },
+        animationEnabled: true,
+        axisX:{
+          labelAngle: 30
+        },
+
+        axisY :{
+          includeZero:false
+        },
+
+        data: data  // random generator below
+
+      });
+
+      chart.render();
+   }
+
+    </script>
+    <script type="text/javascript" src="canvasjs.min.js"></script>
+</head>
+<body>
+    <div id="chartContainer" style="height: 300px; width: 100%;">
+    </div>
+</body>
+</html>
