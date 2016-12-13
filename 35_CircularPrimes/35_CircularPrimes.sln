@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{EF64602E-8F79-4F97-9873-CEFF1F717298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularPrimes", "CircularPrimes\CircularPrimes.csproj", "{6F6C2FEC-B7FE-40C4-A90C-6E885B2AC04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularPrimes_console", "CircularPrimes_console\CircularPrimes_console.csproj", "{8B86B176-FE4E-4BB8-A508-A08EB23AE478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF64602E-8F79-4F97-9873-CEFF1F717298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF64602E-8F79-4F97-9873-CEFF1F717298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF64602E-8F79-4F97-9873-CEFF1F717298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF64602E-8F79-4F97-9873-CEFF1F717298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F6C2FEC-B7FE-40C4-A90C-6E885B2AC04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6C2FEC-B7FE-40C4-A90C-6E885B2AC04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6C2FEC-B7FE-40C4-A90C-6E885B2AC04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6C2FEC-B7FE-40C4-A90C-6E885B2AC04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B86B176-FE4E-4BB8-A508-A08EB23AE478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B86B176-FE4E-4BB8-A508-A08EB23AE478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B86B176-FE4E-4BB8-A508-A08EB23AE478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B86B176-FE4E-4BB8-A508-A08EB23AE478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
